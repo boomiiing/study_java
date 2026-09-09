@@ -12,9 +12,15 @@ public class Java02 {
         System.out.println((age>18)?"成年人":"未成年");
         System.out.println(salary>=20000?"高收入":"仍需努力");
         int count = 0;
-        for (int i = 0 ; i<=100;i++){
+        for (int i = 1 ; i<=100;i++){
+            System.out.println(((i%2)==0)?i:"");
             count+=i;
         }
         System.out.println(count);
+        for(int i = 1;i<=9;i++){
+            for(int j = 1;j<=9;j++){
+                System.out.println(i+"x"+j+"="+i*j);
+            }
+        }
     }
 }
